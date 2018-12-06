@@ -1,9 +1,175 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Developer - Stegaru Marius</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="default.css">
+    <link href="http://fonts.googleapis.com/css?family=Cabin+Sketch:bold" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 <body>
+    <!--<section id="infoHeader">-->
+        <!--<div class="col" id="locationSec">-->
+            <!--<img class="img" src="img/map-marker-alt-solid.svg" alt="location">-->
+            <!--<p class="location">Galati, Romania</p>-->
+        <!--</div>-->
+        <!--<div class="col" id="phoneSec">-->
+            <!--<img class="img" src="img/phone-solid.svg" alt="phone number">-->
+            <!--<p class="phoneNumber">+04 0756 510 079</p>-->
+        <!--</div>-->
+        <!--<div class="col" id="emailSec">-->
+            <!--<img class="img" src="img/envelope-solid.svg" alt="email">-->
+            <!--<p class="email">contact@smarius.ro</p>-->
+        <!--</div>-->
+    <!--</section>-->
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+    <section id="header">
+        <div class="logoSec">
+            <a style="text-decoration: none;" href="#"><h1>SM</h1></a>
+        </div>
+        <!--<img width="20px;" src="img/bars-solid.svg" onclick="toggleMenu()" alt="bars">-->
+        <div class="menuSec">
+            <ul id="menuItems">
+                <li><a class="menuText">PRIMA PAGINA</a></li>
+                <li><a class="menuText despre">DESPRE</a></li>
+                <li><a class="menuText proiecte">PROIECTE</a></li>
+                <li><a style="margin-right: 30px;" class="menuText contact">CONTACT</a></li>
+                <li><a target="_blank" href="https://www.facebook.com/msma23"><img class="menuImg"  src="img/facebook-f-brands.svg" alt="facebook"></a></li>
+                <li><a  target="_blank" href="https://www.instagram.com/mariusstegaru6/?fbclid=IwAR129cE5p2Kz5AxZWPP3ljcnYD3nk00v1D3u_ZcSmPyHTzhsfLM15XJR9j4"><img class="menuImg" src="img/twitter-brands.svg" alt="twitter"></a></li>
+                <li><a  target="_blank" href="https://linkedin.com/in/smarius6?fbclid=IwAR33sf1BTPrbVTLCf99DLcs5XLv8AixSnwUZBiphO4Hmw2RO6-L4Ccf7imA"><img class="menuImg" src="img/linkedin-in-brands.svg" alt="linkedin"></a></li>
 
+            </ul>
+        </div>
+    </section>
+
+    <section id="fixedImage">
+        <div class="imagecontainer">
+            <div class="imgFix"></div>
+        </div>
+        <div class="content">
+            <img class="img" src="img/chevron-down-solid.svg" alt="go down">
+            <div class="text">
+                <p ><span class="ra"></span><span></span></p>
+            </div>
+            <div class="borderBox contactB">
+                <button class="button type1 contactB">CONTACT ME</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="title">WHAT I'M <span>ABOUT</span></p>
+        <p class="desc">Problem solving is my DNA, pushing my creative limits is my daily exercise, building meaningful products is my dream. Here are some fun facts about my life.</p>
+        <!--<div id="progressBar">-->
+            <!--<div class="legend">-->
+                <!--<p>JS</p>-->
+                <!--<p>HTML</p>-->
+                <!--<p>CSS</p>-->
+                <!--<p>IONIC</p>-->
+            <!--</div>-->
+        <!--</div>-->
+        <div id="progressbar">
+            <div class="about-container">
+                <div class="row">
+                    <div class="w3-round w3-light-grey fill-cont ">
+                        <div class="w3-container w3-round fill Html" style="width:98%">98% <span> &nbsp HTML</span></div>
+                    </div>
+                    <div class="w3-round w3-light-grey fill-cont">
+                        <div class="w3-container w3-round fill CSS" style="width:89%">89% <span> &nbsp CSS</span></div>
+                    </div>
+                    <div class="w3-round w3-light-grey fill-cont">
+                        <div class="w3-container w3-round fill JS" style="width:85%">85% <span>&nbsp JS</span></div>
+                    </div>
+                    <div class="w3-round w3-light-grey fill-cont">
+                        <div class="w3-container w3-round fill Jquery" style="width:85%">85% <span> &nbsp Jquery</span></div>
+                    </div>
+                    <div class="w3-round w3-light-grey fill-cont">
+                        <div class="w3-container w3-round fill Ionic" style="width:82%">82% <span>&nbsp Ionic</span></div>
+                    </div>
+                    <div class="w3-round w3-light-grey fill-cont">
+                        <div class="w3-container w3-round fill Angular" style="width:75%">75% <span>&nbsp Angular</span></div>
+                    </div>
+                    <div class="w3-round w3-light-grey fill-cont">
+                        <div class="w3-container w3-round fill React" style="width:75%">75% <span>&nbsp React</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <p class="title">RECENT WORK</p>
+        <div class="columns">
+            <figure class="figImg">
+                <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/cinderella.jpg">
+                <div class="figDesc">
+                    <p class="title">Waiterz App</p>
+                    <p class="desc">I redesigned the waiterz application.</p>
+                </div>
+            </figure>
+
+            <figure class="figImg">
+                <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/rapunzel.jpg">
+                <div class="figDesc">
+                    <p class="title">GymTrack</p>
+                    <p class="desc">Personal project for people who love being active.</p>
+                </div>
+            </figure>
+
+            <figure class="figImg">
+                <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/belle.jpg">
+                <div class="figDesc">
+                    <p class="title">SuperChef</p>
+                    <p class="desc">Personal project for people who want to have fun but to learn something new in the same time.</p>
+                </div>
+            </figure>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="screenSplit">
+            <div class="left-split">
+                <div class="text-container">
+                    <p class="desc"><img width="16px" style="position:relative; right: 20px; bottom: 4px;"  src="img/map-marker-alt-solid.svg" alt=""> Address</p>
+                    <p class="infos" style="position:relative; left: 40px;"> Romania, Galati</p>
+                    <p class="desc"><img width="16px" style="position:relative; right: 20px; bottom: 2px;" src="img/phone-solid.svg" alt=""> Let's Talk</p>
+                    <p class="infos" style="color: #00AD5E; position:relative; left: 40px;">+40756510079</p>
+                    <p class="desc"><img width="16px" style="position:relative; right: 20px; bottom: 2px;" src="img/envelope-solid.svg" alt=""> General Support</p>
+                    <a class="infos" style="color: #00AD5E; position:relative; left: 40px;" href="mailto:contact@smarius.me" >contact@smarius.me</a>
+                </div>
+                .
+            </div>
+            <div class="right-split">
+                <p class="title">Send Me A Message</p>
+                <form action="https://getsimpleform.com/messages?form_api_token=f6400891ddccc08fb53e9194cea06e65" method="post">
+                    <div class="form-section">
+                        <p>TELL ME YOUR NAME *</p>
+                        <div class="input-section">
+                            <input type="text" name="First Name: " placeholder="First name">
+                            <input type="text" name="Last Name: " placeholder="Last name">
+                        </div>
+                    </div>
+                    <div class="form-section">
+                        <p>ENTER YOUR EMAIL *</p>
+                        <div class="input-section email">
+                            <input type="text" name="Email: " placeholder="Eg. example@email.com">
+                        </div>
+                    </div>
+                    <div class="form-section">
+                        <p>Message *</p>
+                        <div class="input-section">
+                            <textarea name="Message: " rows="6" placeholder="Write me a message"></textarea>
+                        </div>
+                    </div>
+                    <input type="submit" value="Send Message" >
+                </form>
+                <p class="copyright">© 2018 - 2019 All Rights Reserved | Stegaru Marius</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
