@@ -6,10 +6,12 @@ $(document).ready(function() {
     function togglePlay() {
         if (isPlaying) {
             myAudio.pause();
-            $(".volume").attr("src","volume-off-indicator.svg");
+            $(".volume-countdown").attr("src","volume-off-indicator.svg");
+            $(".volume-surprise").attr("src","volume-off-indicator.svg");
         } else {
             myAudio.play();
-            $(".volume").attr("src","volume-up-solid.svg");
+            $(".volume-countdown").attr("src","volume-up-solid.svg");
+            $(".volume-surprise").attr("src","volume-up-solid.svg");
         }
     };
 
@@ -71,8 +73,11 @@ $(document).ready(function() {
 }
 
     var i = false;
-    document.querySelector('.volume').addEventListener('click', function(){
-        console.log('rara');
-      togglePlay();
+    document.querySelector('.volume-countdown').addEventListener('click', function(){
+        togglePlay();
+    });
+
+    document.querySelector('.volume-surprise').addEventListener('click', function(){
+        togglePlay();
     });
 });
