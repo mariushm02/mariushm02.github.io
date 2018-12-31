@@ -746,7 +746,8 @@ flex-direction: row;
     animation-fill-mode: forwards;
 }
 
-.volume{
+.volume-countdown,
+.volume-surprise{
     position: absolute;
     left:20px;
     top:20px;
