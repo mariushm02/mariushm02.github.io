@@ -21,7 +21,7 @@ $(document).ready(function() {
     };
     let currentDate = new Date();
     let currentDay = currentDate.getDate();
-    let countDownDate = new Date("Dec 31, 2018 03:00:00").getTime();
+    let countDownDate = new Date("Dec 31, 2018 12:00:00").getTime();
     let daysDiv = document.getElementById('days');
     let hoursDiv = document.getElementById('hours');
     let minutesDiv = document.getElementById('minutes');
