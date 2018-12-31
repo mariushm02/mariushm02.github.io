@@ -1,6 +1,7 @@
 $(document).ready(function() {
     //DECLARATIONS
     var myAudio = document.getElementById("myAudio");
+    $('#myAudio').attr('src','audio.mp3');
     var isPlaying = false;
     function togglePlay() {
         if (isPlaying) {
