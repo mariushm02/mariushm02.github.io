@@ -753,6 +753,7 @@ flex-direction: row;
     width: 25px;
     height: 25px;
     background: transparent;
+    z-index: 99999 !important;
 }
 
 .countdown-finalSeconds{
