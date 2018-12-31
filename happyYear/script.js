@@ -72,6 +72,7 @@ $(document).ready(function() {
 
     var i = false;
     document.querySelector('.volume').addEventListener('click', function(){
+        console.log('rara');
       togglePlay();
     });
 });
